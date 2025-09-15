@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@theme {
+  --color-medical-primary: #1e40af;
+  --color-medical-secondary: #3b82f6;
+  --color-medical-accent: #60a5fa;
+  --color-medical-success: #10b981;
+  --color-medical-warning: #f59e0b;
+  --color-medical-danger: #ef4444;
+
+  --font-medical: "Inter", system-ui, sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+/* Smooth theme transitions for background and text */
+html {
+  color-scheme: light dark;
+}
